@@ -1,0 +1,22 @@
+
+@keyframes slide-up {
+    0% {transform: translateY(10rem);opacity: 0;}
+    100% {transform: translateY(0rem);opacity: 1;}
+}
+
+@keyframes scale-up {
+    0% {transform: scaleX(0) scaleY(0);opacity: 1;}
+    30% {opacity: 1;}
+    100% {transform: scaleX(1.4) scaleY(1.6);opacity: 0;}
+}
+
+@keyframes slide-right {
+    from {transform: translateX(-10rem);opacity: 0;}
+    to {transform: translateX(0rem);opacity: 1;}
+}
+
+
+@keyframes slide-left {
+    from {transform: translateX(10rem);opacity: 0;}
+    to {transform: translateX(0rem);opacity: 1;}
+}
